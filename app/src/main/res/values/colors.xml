@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BA68C8</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="skyBlue">#99C0EF</color>
+    <color name="lightRed">#D07982</color>
+    <color name="deepPurple">#3D3179</color>
+    <color name="purple">#632C87</color>
+    <color name="lightBlue">#2c5260</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="introButtonColor">#43212121</color>
+
+
+
+
+</resources>

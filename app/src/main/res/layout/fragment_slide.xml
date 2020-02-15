@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.farin.intro.materialintroscreen.parallax.ParallaxLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slide_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/gradiant_intro_background"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="false"
+    android:gravity="center"
+
+   android:orientation="vertical"
+    android:paddingBottom="130dp">
+
+    <ir.farin.intro.materialintroscreen.widgets.TitleTextview
+        android:id="@+id/txt_title_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        app:layout_parallaxFactor="0.5"
+        tools:text="Lorem ipsum"/>
+
+    <ImageView
+        android:id="@+id/image_slide"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="48dp"
+android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        app:layout_parallaxFactor="0.3"
+        tools:src="@android:drawable/sym_action_call" />
+
+    <ir.farin.intro.materialintroscreen.widgets.DescriptionTextview
+        android:id="@+id/txt_description_slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        app:layout_parallaxFactor="0.5"
+        tools:text="Lorem ipsum dolor sit amet, consectetur, adipisci velit, …"/>
+
+</ir.farin.intro.materialintroscreen.parallax.ParallaxLinearLayout>
